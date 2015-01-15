@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+
+<!--MergeBlock-->
+
+    <Definition xsi:type="MyObjectBuilder_MergeBlockDefinition">
+      <Id>
+        <TypeId>MergeBlock</TypeId>
+        <SubtypeId>ST_MergeBlock</SubtypeId>
+      </Id>
+      <DisplayName>ST_MergeBlock</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\ST_MergeBlock.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="20" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="MetalGrid" Count="5" />
+        <Component Subtype="PowerCell" Count="120" />
+        <Component Subtype="Computer" Count="25" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SteelPlate" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+		<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+	  </MountPoints>
+      <!--BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
+      </BuildProgressModels-->
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+	 </Definition>
+
+<!--Antenna-->
+
+	 <Definition>
+      <Id>
+        <TypeId>RadioAntenna</TypeId>
+        <SubtypeId>ST_Antenna</SubtypeId>
+      </Id>
+      <DisplayName>ST_Antenna</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\ST_battery.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="20" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="MetalGrid" Count="5" />
+        <Component Subtype="PowerCell" Count="120" />
+        <Component Subtype="Computer" Count="25" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SteelPlate" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+		<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+	  </MountPoints>
+      <!--BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
+      </BuildProgressModels-->
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+	 </Definition>
+
+ </CubeBlocks>
+  <BlockPositions>
+	<X>8</X>
+	<Y>15</Y>
+  </BlockPositions>
+</Definitions>

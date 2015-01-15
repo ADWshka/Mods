@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
+      <Name>SmallBlocks</Name>
+      <ItemIds>
+		<string>MergeBlock/ST_MergeBlock</string>
+		<string>RadioAntenna/ST_Antenna</string>
+
+      </ItemIds>
+	</Category>
+	<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+	  <Id>
+		<TypeId>GuiBlockCategoryDefinition</TypeId>
+		<SubtypeId/>
+	  </Id>
+	  <DisplayName>MissileParts</DisplayName>
+	  <Name>MissileParts</Name>
+	  <ItemIds>
+		<string>MergeBlock/ST_MergeBlock</string>
+		<string>RadioAntenna/ST_Antenna</string>
+
+	  </ItemIds>  
+  </Category>
+	
+  </CategoryClasses>
+</Definitions>
