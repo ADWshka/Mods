@@ -12,7 +12,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\ST_battery.mwm</Model>
+      <Model>Models\ST_Engine.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="20" />
         <Component Subtype="Construction" Count="10" />
@@ -24,7 +24,7 @@
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
-		<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
 	  </MountPoints>
       <!--BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
@@ -32,7 +32,7 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
       </BuildProgressModels-->
       <BuildTimeSeconds>45</BuildTimeSeconds>
-      <Center x="1" y="0" z="1" />
+      <Center x="0" y="0" z="0" />
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -43,15 +43,15 @@
       <FlameDamage>0.2</FlameDamage>
       <FlameLengthScale>1.15</FlameLengthScale>
       <FlameIdleColor>
-        <X>0.2745098</X>
-        <Y>0.4090196</Y>
-        <Z>0.6505882</Z>
+        <X>1</X>
+        <Y>0</Y>
+        <Z>0.6</Z>
         <W>0.75</W>
       </FlameIdleColor>
       <FlameFullColor>
-        <X>0.2745098</X>
-        <Y>0.4090196</Y>
-        <Z>0.6505882</Z>
+        <X>1</X>
+        <Y>0</Y>
+        <Z>0.2</Z>
         <W>0.75</W>
       </FlameFullColor>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
