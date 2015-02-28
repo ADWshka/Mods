@@ -41,26 +41,24 @@
       <MinPowerConsumption>0.000002</MinPowerConsumption>
       <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
       <FlameDamage>0.2</FlameDamage>
-	  <FlameDamageLengthScale>0</FlameDamageLengthScale>
-      <FlameDamage>0</FlameDamage>
-      <FlameLengthScale>1.15</FlameLengthScale>
+      <FlameLengthScale>4</FlameLengthScale>
       <FlameIdleColor>
-        <X>1</X>
-        <Y>0.27</Y>
-        <Z>0.28</Z>
+        <X>0.95</X>
+        <Y>0.60</Y>
+        <Z>0.01</Z>
         <W>0.75</W>
       </FlameIdleColor>
       <FlameFullColor>
-        <X>1</X>
-        <Y>0.27</Y>
-        <Z>0.28</Z>
+        <X>0.95</X>
+        <Y>0.60</Y>
+        <Z>0.01</Z>
         <W>0.75</W>
       </FlameFullColor>
-      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
-      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
-      <FlameGlareMaterial>GlareSsThrustLarge</FlameGlareMaterial>
+      <FlamePointMaterial>EngineThrustMiddle_HellBlade_Main</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustLength_HellBlade_Main</FlameLengthMaterial>
+      <FlameGlareMaterial>EngineThrustGlare_HellBlade_Main</FlameGlareMaterial>
       <FlameVisibilityDistance>300</FlameVisibilityDistance>
-      <FlameGlareSize>0.908</FlameGlareSize>
+      <FlameGlareSize>0</FlameGlareSize>
       <FlameGlareQuerySize>1</FlameGlareQuerySize>
       <PrimarySound>SmShipLrgJet</PrimarySound>
       <InventorySize>

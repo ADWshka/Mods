@@ -12,7 +12,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\ST_battery.mwm</Model>
+      <Model>Models\STC_X25_Antena.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="20" />
         <Component Subtype="Construction" Count="10" />
