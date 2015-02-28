@@ -2,12 +2,12 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<CubeBlocks>
 
-<!--MergeBlock-->
+	<!--MergeBlock-->
 
     <Definition xsi:type="MyObjectBuilder_MergeBlockDefinition">
       <Id>
         <TypeId>MergeBlock</TypeId>
-        <SubtypeId>ST_MergeBlock</SubtypeId>
+        <SubtypeId>STC_X25_MergeBlock</SubtypeId>
       </Id>
       <DisplayName>STC X25 Atachment</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
@@ -46,12 +46,12 @@
       <Public>true</Public>
 	 </Definition>
 
-<!--Antenna-->
+	 <!--Antenna-->
 
 	 <Definition>
       <Id>
         <TypeId>RadioAntenna</TypeId>
-        <SubtypeId>ST_Antenna</SubtypeId>
+        <SubtypeId>STC_X25_Antenna</SubtypeId>
       </Id>
       <DisplayName>STC X25 Antena</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
@@ -89,12 +89,12 @@
       <Public>true</Public>
 	 </Definition>
 	 
-<!--Battery-->
+	 <!--Battery-->
 
- <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+	 <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
       <Id>
         <TypeId>BatteryBlock</TypeId>
-        <SubtypeId>ST_Battery</SubtypeId>
+        <SubtypeId>STC_X25_Battery</SubtypeId>
       </Id>
       <DisplayName>STC X25 Battery</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
@@ -118,10 +118,11 @@
 		<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1"/>
 	  </MountPoints>
       <!--BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
-      </BuildProgressModels-->
+	  <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
+      <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
+	  <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
+     
+	  </BuildProgressModels-->
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>45</BuildTimeSeconds>
       <MaxPowerOutput>4</MaxPowerOutput>
@@ -133,14 +134,14 @@
         <Z>1</Z>
       </InventorySize>
       <Public>true</Public>
+	 </Definition>
 
+	 <!--Gyroscope-->
 
-
-</Definition><Definition xsi:type="MyObjectBuilder_GyroDefinition">
-<!--Gyroscope-->
+	 <Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
         <TypeId>Gyro</TypeId>
-        <SubtypeId>ST_Gyroscope</SubtypeId>
+        <SubtypeId>STC_X25_Gyroscope</SubtypeId>
       </Id>
       <DisplayName>STC X25 Gyroscope</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
@@ -180,10 +181,14 @@
         <Z>1</Z>
       </InventorySize>
       <Public>true</Public>
-	 </Definition><Definition>
+	 </Definition>
+	 
+	 <!--Warhead-->
+	 
+	 <Definition>
       <Id>
         <TypeId>Warhead</TypeId>
-        <SubtypeId>ST_Warhead</SubtypeId>
+        <SubtypeId>STC_X25_Warhead</SubtypeId>
       </Id>
       <DisplayName>STC X25 Warhead</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
@@ -212,10 +217,14 @@
       </BuildProgressModels-->
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>45</BuildTimeSeconds>
-	 </Definition><Definition xsi:type="MyObjectBuilder_RemoteControlDefinition">
+	 </Definition>
+	 
+	<!--RemoteControl-->
+	 
+	 <Definition xsi:type="MyObjectBuilder_RemoteControlDefinition">
       <Id>
         <TypeId>RemoteControl</TypeId>
-        <SubtypeId>ST_RemoteControl</SubtypeId>
+        <SubtypeId>STC_X25_RemoteControl</SubtypeId>
       </Id>
       <DisplayName>STC X25 Remote Control</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
@@ -255,10 +264,14 @@
         <Z>1</Z>
       </InventorySize>
       <Public>true</Public>
-	 </Definition><Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+	 </Definition>
+	 
+	 <!--Thrust-->
+	 
+	 <Definition xsi:type="MyObjectBuilder_ThrustDefinition">	 
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>ST_Thrust</SubtypeId>
+        <SubtypeId>STC_X25_Engine</SubtypeId>
       </Id>
       <DisplayName>STC X25 Engine</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
@@ -310,9 +323,9 @@
         <Z>0.28</Z>
         <W>0.75</W>
       </FlameFullColor>
-      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
-      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
-      <FlameGlareMaterial>GlareSsThrustLarge</FlameGlareMaterial>
+      <FlamePointMaterial>STC_X25_ThrustMiddle_STC_missile</FlamePointMaterial>
+      <FlameLengthMaterial>STC_X25_ThrustLength_STC_missile</FlameLengthMaterial>
+      <FlameGlareMaterial>STC_X25_ThrustGlare_STC_missile</FlameGlareMaterial>
       <FlameVisibilityDistance>300</FlameVisibilityDistance>
       <FlameGlareSize>0.908</FlameGlareSize>
       <FlameGlareQuerySize>1</FlameGlareQuerySize>
