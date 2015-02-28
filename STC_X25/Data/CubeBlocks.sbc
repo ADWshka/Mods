@@ -323,9 +323,9 @@
         <Z>0.28</Z>
         <W>0.75</W>
       </FlameFullColor>
-      <FlamePointMaterial>STC_X25_ThrustMiddle_STC_missile</FlamePointMaterial>
-      <FlameLengthMaterial>STC_X25_ThrustLength_STC_missile</FlameLengthMaterial>
-      <FlameGlareMaterial>STC_X25_ThrustGlare_STC_missile</FlameGlareMaterial>
+      <FlamePointMaterial>EngineThrustMiddle_STC_X25</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustLength_STC_X25</FlameLengthMaterial>
+      <FlameGlareMaterial>EngineThrustGlare_STC_X25</FlameGlareMaterial>
       <FlameVisibilityDistance>300</FlameVisibilityDistance>
       <FlameGlareSize>0.908</FlameGlareSize>
       <FlameGlareQuerySize>1</FlameGlareQuerySize>
@@ -336,7 +336,8 @@
         <Z>1</Z>
       </InventorySize>
       <Public>true</Public>
-	 </Definition></CubeBlocks>
+	 </Definition>
+	</CubeBlocks>
   <BlockPositions>
 	<X>8</X>
 	<Y>15</Y>

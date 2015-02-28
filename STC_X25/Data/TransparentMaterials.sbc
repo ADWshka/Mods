@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <TransparentMaterials>
-	<TransparentMaterial>
+   <TransparentMaterial>
       <Id>
         <TypeId>TransparentMaterialDefinition</TypeId>
-        <SubtypeId>STC_X25_ThrustGlare_STC_missile</SubtypeId>
+        <SubtypeId>EngineThrustGlare_STC_X25</SubtypeId>
       </Id>
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>0.55</AlphaSaturation>
@@ -12,7 +12,7 @@
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
-      <Texture>Textures\STC_X25_ThrustGlare_STC_missile.dds</Texture>
+      <Texture>Textures\Particles\EngineThrustGlare_STC_X25.dds</Texture>
       <UseAtlas>false</UseAtlas>
       <UVOffset>
         <X>0</X>
@@ -26,7 +26,7 @@
 	<TransparentMaterial>
       <Id>
         <TypeId>TransparentMaterialDefinition</TypeId>
-        <SubtypeId>STC_X25_ThrustLength_STC_missile</SubtypeId>
+        <SubtypeId>EngineThrustLength_STC_X25</SubtypeId>
       </Id>
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>0.55</AlphaSaturation>
@@ -34,7 +34,7 @@
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
-      <Texture>Textures\STC_X25_ThrustLength_STC_missile.dds</Texture>
+      <Texture>Textures\Particles\EngineThrustLength_STC_X25.dds</Texture>
       <UseAtlas>false</UseAtlas>
       <UVOffset>
         <X>0</X>
@@ -48,7 +48,7 @@
 	<TransparentMaterial>
       <Id>
         <TypeId>TransparentMaterialDefinition</TypeId>
-        <SubtypeId>STC_X25_ThrustMiddle_STC_missile</SubtypeId>
+        <SubtypeId>EngineThrustMiddle_STC_X25</SubtypeId>
       </Id>
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>0.55</AlphaSaturation>
@@ -56,7 +56,7 @@
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
-      <Texture>Textures\STC_X25_ThrustMiddle_STC_missile.dds</Texture>
+      <Texture>Textures\Particles\EngineThrustMiddle_STC_X25.dds</Texture>
       <UseAtlas>false</UseAtlas>
       <UVOffset>
         <X>0</X>
