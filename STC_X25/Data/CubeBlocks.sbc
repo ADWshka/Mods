@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<CubeBlocks>
+<CubeBlocks>
 
-	<!--MergeBlock-->
+<!--MergeBlock-->
 
     <Definition xsi:type="MyObjectBuilder_MergeBlockDefinition">
       <Id>
@@ -10,7 +10,7 @@
         <SubtypeId>STC_X25_MergeBlock</SubtypeId>
       </Id>
       <DisplayName>STC X25 Atachment</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <Icon>Textures\STC_X25_Gui.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1"/>
@@ -27,10 +27,10 @@
       </Components>
       <CriticalComponent Subtype="Computer" Index="0"/>
       <MountPoints>
-		<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1"/>
-		<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1"/>
-		<MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1"/>
-	  </MountPoints>
+       <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1"/>
+       <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1"/>
+       <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1"/>
+      </MountPoints>
       <!--BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
@@ -44,17 +44,17 @@
         <Z>1</Z>
       </InventorySize>
       <Public>true</Public>
-	 </Definition>
+ </Definition>
 
-	 <!--Antenna-->
+ <!--Antenna-->
 
-	 <Definition>
+ <Definition>
       <Id>
         <TypeId>RadioAntenna</TypeId>
         <SubtypeId>STC_X25_Antenna</SubtypeId>
       </Id>
       <DisplayName>STC X25 Antena</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <Icon>Textures\STC_X25_Gui.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1"/>
@@ -71,9 +71,9 @@
       </Components>
       <CriticalComponent Subtype="Computer" Index="0"/>
       <MountPoints>
-		<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1"/>
-		<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1"/>
-	  </MountPoints>
+       <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1"/>
+       <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1"/>
+      </MountPoints>
       <!--BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
@@ -87,17 +87,17 @@
         <Z>1</Z>
       </InventorySize>
       <Public>true</Public>
-	 </Definition>
-	 
-	 <!--Battery-->
+ </Definition>
+ 
+ <!--Battery-->
 
-	 <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+ <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
       <Id>
         <TypeId>BatteryBlock</TypeId>
         <SubtypeId>STC_X25_Battery</SubtypeId>
       </Id>
       <DisplayName>STC X25 Battery</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <Icon>Textures\STC_X25_Gui.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1"/>
@@ -114,15 +114,15 @@
       </Components>
       <CriticalComponent Subtype="Computer" Index="0"/>
       <MountPoints>
-		<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1"/>
-		<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1"/>
-	  </MountPoints>
+       <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1"/>
+       <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1"/>
+      </MountPoints>
       <!--BuildProgressModels>
-	  <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
+  <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
       <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
-	  <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
+  <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
      
-	  </BuildProgressModels-->
+  </BuildProgressModels-->
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>45</BuildTimeSeconds>
       <MaxPowerOutput>4</MaxPowerOutput>
@@ -134,17 +134,17 @@
         <Z>1</Z>
       </InventorySize>
       <Public>true</Public>
-	 </Definition>
+ </Definition>
 
-	 <!--Gyroscope-->
+ <!--Gyroscope-->
 
-	 <Definition xsi:type="MyObjectBuilder_GyroDefinition">
+ <Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
         <TypeId>Gyro</TypeId>
         <SubtypeId>STC_X25_Gyroscope</SubtypeId>
       </Id>
       <DisplayName>STC X25 Gyroscope</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <Icon>Textures\STC_X25_Gui.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1"/>
@@ -161,9 +161,9 @@
       </Components>
       <CriticalComponent Subtype="Computer" Index="0"/>
       <MountPoints>
-		<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1"/>
-		<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1"/>
-	  </MountPoints>
+       <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1"/>
+       <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1"/>
+      </MountPoints>
       <!--BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
@@ -181,17 +181,17 @@
         <Z>1</Z>
       </InventorySize>
       <Public>true</Public>
-	 </Definition>
-	 
-	 <!--Warhead-->
-	 
-	 <Definition>
+ </Definition>
+ 
+ <!--Warhead-->
+ 
+ <Definition>
       <Id>
         <TypeId>Warhead</TypeId>
         <SubtypeId>STC_X25_Warhead</SubtypeId>
       </Id>
       <DisplayName>STC X25 Warhead</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <Icon>Textures\STC_X25_Gui.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1"/>
@@ -207,9 +207,9 @@
       </Components>
       <CriticalComponent Subtype="Explosives" Index="0"/>
       <MountPoints>
-		<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1"/>
-		<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1"/>
-	  </MountPoints>
+       <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1"/>
+       <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1"/>
+      </MountPoints>
       <!--BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
@@ -217,17 +217,17 @@
       </BuildProgressModels-->
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>45</BuildTimeSeconds>
-	 </Definition>
-	 
-	<!--RemoteControl-->
-	 
-	 <Definition xsi:type="MyObjectBuilder_RemoteControlDefinition">
+ </Definition>
+ 
+<!--RemoteControl-->
+ 
+ <Definition xsi:type="MyObjectBuilder_RemoteControlDefinition">
       <Id>
         <TypeId>RemoteControl</TypeId>
         <SubtypeId>STC_X25_RemoteControl</SubtypeId>
       </Id>
       <DisplayName>STC X25 Remote Control</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <Icon>Textures\STC_X25_Gui.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1"/>
@@ -244,9 +244,9 @@
       </Components>
       <CriticalComponent Subtype="Computer" Index="0"/>
       <MountPoints>
-		<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1"/>
-		<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1"/>
-	  </MountPoints>
+       <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1"/>
+       <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1"/>
+      </MountPoints>
       <!--BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
@@ -254,7 +254,7 @@
       </BuildProgressModels-->
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>45</BuildTimeSeconds>
-	  <RequiredPowerInput>0.0003</RequiredPowerInput>
+      <RequiredPowerInput>0.0003</RequiredPowerInput>
       <EnableFirstPerson>false</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <Public>true</Public>
@@ -264,17 +264,17 @@
         <Z>1</Z>
       </InventorySize>
       <Public>true</Public>
-	 </Definition>
-	 
-	 <!--Thrust-->
-	 
-	 <Definition xsi:type="MyObjectBuilder_ThrustDefinition">	 
+ </Definition>
+ 
+ <!--Thrust-->
+ 
+ <Definition xsi:type="MyObjectBuilder_ThrustDefinition"> 
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>STC_X25_Engine</SubtypeId>
       </Id>
       <DisplayName>STC X25 Engine</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <Icon>Textures\STC_X25_Gui.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1"/>
@@ -291,8 +291,8 @@
       </Components>
       <CriticalComponent Subtype="Computer" Index="0"/>
       <MountPoints>
-		<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1"/>
-	  </MountPoints>
+       <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1"/>
+     </MountPoints>
       <!--BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
@@ -307,9 +307,7 @@
       <MaxPowerConsumption>0.4</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
       <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
-      <FlameDamage>0.0</FlameDamage>
-	  <FlameDamageLengthScale>0</FlameDamageLengthScale>
-      <FlameDamage>0</FlameDamage>
+      <FlameDamage>0.1</FlameDamage>
       <FlameLengthScale>1.15</FlameLengthScale>
       <FlameIdleColor>
         <X>1</X>
@@ -336,11 +334,11 @@
         <Z>1</Z>
       </InventorySize>
       <Public>true</Public>
-	 </Definition>
-	</CubeBlocks>
+    </Definition>
+   </CubeBlocks>
   <BlockPositions>
-	<X>8</X>
-	<Y>15</Y>
+<X>8</X>
+<Y>15</Y>
   </BlockPositions>
 </Definitions>
 

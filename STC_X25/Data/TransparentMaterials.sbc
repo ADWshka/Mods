@@ -23,7 +23,7 @@
         <Y>1</Y>
       </UVSize>
     </TransparentMaterial>
-	<TransparentMaterial>
+    <TransparentMaterial>
       <Id>
         <TypeId>TransparentMaterialDefinition</TypeId>
         <SubtypeId>EngineThrustLength_STC_X25</SubtypeId>
@@ -45,7 +45,7 @@
         <Y>1</Y>
       </UVSize>
     </TransparentMaterial>
-	<TransparentMaterial>
+    <TransparentMaterial>
       <Id>
         <TypeId>TransparentMaterialDefinition</TypeId>
         <SubtypeId>EngineThrustMiddle_STC_X25</SubtypeId>

@@ -9,8 +9,8 @@
       <DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
       <Name>SmallBlocks</Name>
       <ItemIds>
-		<string>MergeBlock/ST_MergeBlock</string>
-		<string>RadioAntenna/ST_Antenna</string>
+		<string>MergeBlock/STC_X25_MergeBlock</string>
+		<string>RadioAntenna/STC_X25_Antenna</string>
 
       </ItemIds>
 	</Category>
@@ -22,13 +22,13 @@
 	  <DisplayName>MissileParts</DisplayName>
 	  <Name>MissileParts</Name>
 	  <ItemIds>
-		<string>MergeBlock/ST_MergeBlock</string>
-		<string>RadioAntenna/ST_Antenna</string>
-                <string>Thrust/ST_Thrust</string>
-                <string>BatteryBlock/ST_Battery</string>
-                <string>Gyro/ST_Gyroscope</string>
-                <string>RemoteControl/ST_RemoteControl</string>
-                <string>Warhead/ST_Warhead</string>
+		<string>MergeBlock/STC_X25_MergeBlock</string>
+		<string>RadioAntenna/STC_X25_Antenna</string>
+        <string>Thrust/STC_X25_Engine</string>
+        <string>BatteryBlock/STC_X25_Battery</string>
+        <string>Gyro/STC_X25_Gyroscope</string>
+        <string>RemoteControl/STC_X25_RemoteControl</string>
+        <string>Warhead/STC_X25_Warhead</string>
 	  </ItemIds>  
   </Category>
 	
