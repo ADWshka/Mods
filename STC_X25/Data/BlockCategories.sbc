@@ -1,6 +1,9 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CategoryClasses>
+
+<!-- Category_SmallBlocks -->
+
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
@@ -11,9 +14,11 @@
       <ItemIds>
 		<string>MergeBlock/STC_X25_MergeBlock</string>
 		<string>RadioAntenna/STC_X25_Antenna</string>
-
       </ItemIds>
 	</Category>
+
+<!-- Category_MissileParts -->
+
 	<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
 	  <Id>
 		<TypeId>GuiBlockCategoryDefinition</TypeId>
@@ -31,6 +36,6 @@
         <string>Warhead/STC_X25_Warhead</string>
 	  </ItemIds>  
   </Category>
-	
+
   </CategoryClasses>
 </Definitions>

@@ -32,10 +32,10 @@
        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1"/>
       </MountPoints>
       <!--BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
-      </BuildProgressModels-->
+       <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
+	   <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
+	   <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
+	  </BuildProgressModels-->
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>45</BuildTimeSeconds>
       <InventorySize>
@@ -46,7 +46,7 @@
       <Public>true</Public>
  </Definition>
 
- <!--Antenna-->
+<!--Antenna-->
 
  <Definition>
       <Id>
@@ -75,10 +75,11 @@
        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1"/>
       </MountPoints>
       <!--BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
-      </BuildProgressModels-->
+       
+	   <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
+	   <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
+	   <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
+	  </BuildProgressModels-->
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>45</BuildTimeSeconds>
       <InventorySize>
@@ -89,7 +90,7 @@
       <Public>true</Public>
  </Definition>
  
- <!--Battery-->
+<!--Battery-->
 
  <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
       <Id>
@@ -118,11 +119,10 @@
        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1"/>
       </MountPoints>
       <!--BuildProgressModels>
-  <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
-      <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
-  <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
-     
-  </BuildProgressModels-->
+       <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
+       <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
+       <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
+      </BuildProgressModels-->
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>45</BuildTimeSeconds>
       <MaxPowerOutput>4</MaxPowerOutput>
@@ -136,7 +136,7 @@
       <Public>true</Public>
  </Definition>
 
- <!--Gyroscope-->
+<!--Gyroscope-->
 
  <Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
@@ -165,10 +165,11 @@
        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1"/>
       </MountPoints>
       <!--BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
-      </BuildProgressModels-->
+       
+	   <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
+	   <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
+	   <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
+	  </BuildProgressModels-->
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>45</BuildTimeSeconds>
@@ -183,7 +184,7 @@
       <Public>true</Public>
  </Definition>
  
- <!--Warhead-->
+<!--Warhead-->
  
  <Definition>
       <Id>
@@ -211,10 +212,11 @@
        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1"/>
       </MountPoints>
       <!--BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
-      </BuildProgressModels-->
+       
+	   <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
+	   <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
+	   <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
+	  </BuildProgressModels-->
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>45</BuildTimeSeconds>
  </Definition>
@@ -248,10 +250,11 @@
        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1"/>
       </MountPoints>
       <!--BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
-      </BuildProgressModels-->
+       
+	   <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
+	   <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
+	   <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
+	  </BuildProgressModels-->
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>45</BuildTimeSeconds>
       <RequiredPowerInput>0.0003</RequiredPowerInput>
@@ -266,7 +269,7 @@
       <Public>true</Public>
  </Definition>
  
- <!--Thrust-->
+<!--Thrust-->
  
  <Definition xsi:type="MyObjectBuilder_ThrustDefinition"> 
       <Id>
@@ -294,10 +297,11 @@
        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1"/>
      </MountPoints>
       <!--BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
-      </BuildProgressModels-->
+       
+	   <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
+	   <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
+	   <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
+	  </BuildProgressModels-->
       <BuildTimeSeconds>45</BuildTimeSeconds>
       <Center x="0" y="0" z="0"/>
       <MirroringY>Z</MirroringY>
@@ -341,6 +345,3 @@
 <Y>15</Y>
   </BlockPositions>
 </Definitions>
-
-
-

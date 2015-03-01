@@ -1,6 +1,9 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <TransparentMaterials>
+
+<!-- EngineThrustGlare -->
+
    <TransparentMaterial>
       <Id>
         <TypeId>TransparentMaterialDefinition</TypeId>
@@ -23,6 +26,9 @@
         <Y>1</Y>
       </UVSize>
     </TransparentMaterial>
+
+<!-- EngineThrustLength -->
+
     <TransparentMaterial>
       <Id>
         <TypeId>TransparentMaterialDefinition</TypeId>
@@ -45,6 +51,9 @@
         <Y>1</Y>
       </UVSize>
     </TransparentMaterial>
+
+<!-- EngineThrustMiddle -->
+
     <TransparentMaterial>
       <Id>
         <TypeId>TransparentMaterialDefinition</TypeId>
@@ -67,5 +76,6 @@
         <Y>1</Y>
       </UVSize>
     </TransparentMaterial>
+
   </TransparentMaterials>
 </Definitions>
