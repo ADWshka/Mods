@@ -15,6 +15,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0"/>
+	  <Strength>0.1</Strength>
       <Model>Models\STC_X25_MergeBlock.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="1"/>
@@ -29,13 +30,14 @@
       <MountPoints>
        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1"/>
        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1"/>
-       <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1"/>
+ <!--      <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1"/>-->
       </MountPoints>
       <!--BuildProgressModels>
        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
 	   <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
 	   <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
 	  </BuildProgressModels-->
+	  <BlockPairName>STC_X25_Atachment_s</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>45</BuildTimeSeconds>
       <InventorySize>
@@ -186,7 +188,8 @@
  
 <!--Warhead-->
  
- <Definition>
+ <!--Definition>-->
+ <Definition xsi:type="MyObjectBuilder_WarheadDefinition">
       <Id>
         <TypeId>Warhead</TypeId>
         <SubtypeId>STC_X25_Warhead</SubtypeId>
@@ -199,17 +202,17 @@
       <ModelOffset x="0" y="0" z="0"/>
       <Model>Models\STC_X25_Warhead.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="10"/>
-        <Component Subtype="Girder" Count="24"/>
+     <Component Subtype="SteelPlate" Count="1"/>
+ <!--       <Component Subtype="Girder" Count="24"/>
         <Component Subtype="Construction" Count="12"/>
         <Component Subtype="SmallTube" Count="12"/>
         <Component Subtype="Computer" Count="2"/>
-        <Component Subtype="Explosives" Count="6"/>
+        <Component Subtype="Explosives" Count="6"/>-->
       </Components>
-      <CriticalComponent Subtype="Explosives" Index="0"/>
+      <CriticalComponent Subtype="SteelPlate" Index="1"/>
       <MountPoints>
-       <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1"/>
-       <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1"/>
+       <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+       <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
       </MountPoints>
       <!--BuildProgressModels>
        
@@ -219,6 +222,7 @@
 	  </BuildProgressModels-->
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>45</BuildTimeSeconds>
+	  <ExplosionRadius>15</ExplosionRadius>
  </Definition>
  
 <!--RemoteControl-->

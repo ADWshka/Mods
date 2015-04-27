@@ -12,6 +12,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
+	  <Strength>0.1</Strength>
       <Model>Models\ST_MergeBlock.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="20" />
@@ -26,14 +27,14 @@
       <MountPoints>
 		<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
 		<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-		<MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<!--<MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />-->
 	  </MountPoints>
       <!--BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
       </BuildProgressModels-->
-	  <BlockPairName>ST_MergeBlock</BlockPairName>
+	  <BlockPairName>ST_MergeBlock_s</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>45</BuildTimeSeconds>
       <InventorySize>
