@@ -20,17 +20,14 @@
       <Components>
         <Component Subtype="SteelPlate" Count="1"/>
         <Component Subtype="Construction" Count="1"/>
-        <Component Subtype="MetalGrid" Count="1"/>
-        <Component Subtype="PowerCell" Count="1"/>
         <Component Subtype="Computer" Count="1"/>
-        <Component Subtype="Construction" Count="1"/>
         <Component Subtype="SteelPlate" Count="1"/>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0"/>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
       <MountPoints>
        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1"/>
        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1"/>
- <!--      <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1"/>-->
+       <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1"/>
       </MountPoints>
       <!--BuildProgressModels>
        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
@@ -63,15 +60,11 @@
       <ModelOffset x="0" y="0" z="0"/>
       <Model>Models\STC_X25_Antena.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="20"/>
-        <Component Subtype="Construction" Count="10"/>
-        <Component Subtype="MetalGrid" Count="5"/>
-        <Component Subtype="PowerCell" Count="120"/>
-        <Component Subtype="Computer" Count="25"/>
-        <Component Subtype="Construction" Count="20"/>
-        <Component Subtype="SteelPlate" Count="60"/>
+        <Component Subtype="SteelPlate" Count="1"/>
+        <Component Subtype="Construction" Count="1"/>
+        <Component Subtype="RadioCommunication" Count="1"/>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0"/>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
       <MountPoints>
        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1"/>
        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1"/>
@@ -107,15 +100,12 @@
       <ModelOffset x="0" y="0" z="0"/>
       <Model>Models\STC_X25_Battery.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="20"/>
-        <Component Subtype="Construction" Count="10"/>
-        <Component Subtype="MetalGrid" Count="5"/>
-        <Component Subtype="PowerCell" Count="120"/>
-        <Component Subtype="Computer" Count="25"/>
-        <Component Subtype="Construction" Count="20"/>
-        <Component Subtype="SteelPlate" Count="60"/>
+        <Component Subtype="SteelPlate" Count="1"/>
+        <Component Subtype="Construction" Count="1"/>
+        <Component Subtype="Computer" Count="1"/>
+        <Component Subtype="SteelPlate" Count="1"/>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0"/>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
       <MountPoints>
        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1"/>
        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1"/>
@@ -153,15 +143,13 @@
       <ModelOffset x="0" y="0" z="0"/>
       <Model>Models\STC_X25_Gyroscope.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="20"/>
-        <Component Subtype="Construction" Count="10"/>
-        <Component Subtype="MetalGrid" Count="5"/>
-        <Component Subtype="PowerCell" Count="120"/>
-        <Component Subtype="Computer" Count="25"/>
-        <Component Subtype="Construction" Count="20"/>
-        <Component Subtype="SteelPlate" Count="60"/>
+        <Component Subtype="SteelPlate" Count="1"/>
+        <Component Subtype="Construction" Count="1"/>
+        <Component Subtype="Motor" Count="1"/>
+        <Component Subtype="Computer" Count="1"/>
+        <Component Subtype="SteelPlate" Count="1"/>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0"/>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
       <MountPoints>
        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1"/>
        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1"/>
@@ -202,12 +190,10 @@
       <ModelOffset x="0" y="0" z="0"/>
       <Model>Models\STC_X25_Warhead.mwm</Model>
       <Components>
-     <Component Subtype="SteelPlate" Count="1"/>
- <!--       <Component Subtype="Girder" Count="24"/>
-        <Component Subtype="Construction" Count="12"/>
-        <Component Subtype="SmallTube" Count="12"/>
-        <Component Subtype="Computer" Count="2"/>
-        <Component Subtype="Explosives" Count="6"/>-->
+        <Component Subtype="SteelPlate" Count="2"/>
+        <Component Subtype="Construction" Count="1"/>
+        <Component Subtype="Computer" Count="1"/>
+        <Component Subtype="Explosives" Count="4"/>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="1"/>
       <MountPoints>
@@ -240,15 +226,12 @@
       <ModelOffset x="0" y="0" z="0"/>
       <Model>Models\STC_X25_RemoteControl.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="20"/>
-        <Component Subtype="Construction" Count="10"/>
-        <Component Subtype="MetalGrid" Count="5"/>
-        <Component Subtype="PowerCell" Count="120"/>
-        <Component Subtype="Computer" Count="25"/>
-        <Component Subtype="Construction" Count="20"/>
-        <Component Subtype="SteelPlate" Count="60"/>
+        <Component Subtype="SteelPlate" Count="1"/>
+        <Component Subtype="Construction" Count="1"/>
+        <Component Subtype="Computer" Count="5"/>
+        <Component Subtype="SteelPlate" Count="1"/>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0"/>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
       <MountPoints>
        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1"/>
        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1"/>
@@ -288,15 +271,13 @@
       <ModelOffset x="0" y="0" z="0"/>
       <Model>Models\STC_X25_Engine.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="20"/>
-        <Component Subtype="Construction" Count="10"/>
-        <Component Subtype="MetalGrid" Count="5"/>
-        <Component Subtype="PowerCell" Count="120"/>
-        <Component Subtype="Computer" Count="25"/>
-        <Component Subtype="Construction" Count="20"/>
-        <Component Subtype="SteelPlate" Count="60"/>
+        <Component Subtype="SteelPlate" Count="1"/>
+        <Component Subtype="Construction" Count="1"/>
+        <Component Subtype="Computer" Count="1"/>
+        <Component Subtype="Thrust" Count="1"/>
+        <Component Subtype="SteelPlate" Count="1"/>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0"/>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
       <MountPoints>
        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1"/>
      </MountPoints>
@@ -311,8 +292,8 @@
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <ForceMagnitude>500</ForceMagnitude>
-      <MaxPowerConsumption>0.4</MaxPowerConsumption>
+      <ForceMagnitude>4300</ForceMagnitude>
+      <MaxPowerConsumption>0.0112</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
       <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
       <FlameDamage>0.1</FlameDamage>
